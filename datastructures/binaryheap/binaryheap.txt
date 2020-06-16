@@ -1,0 +1,38 @@
+MAX BINARY HEAP => parent nodes are always larger than the children
+
+MIN BINARY HEAP => parent nodes are always smaller than the chidl nodes
+
+each parent has at max two children
+
+as compact as possible 
+
+every left and right are filled before 
+
+Priority Queue 
+    >> commonly used data structures
+    >> Queue, als assign priority(importance level to each item)
+
+
+REPRESENTING A HEAP 
+=======
+for any index of an array n...
+
+Find a child based off of a parent
+---------
+left child = 2n + 1;
+right child = 2n + 2;
+
+Find a parent node
+----------
+(n - 1)/2 floored to find its parent
+
+Adding to a MaxBinaryHeap
+=========================
+
+Add to the end of the heap, and bubble up
+
+swap until it respects the heap rules
+
+
+
+extractMax;
